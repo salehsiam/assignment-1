@@ -84,3 +84,93 @@ nav button {
   margin-top: 32px;
   cursor: pointer;
 }
+
+/* web debelopment component styles */
+
+.web-development-component {
+  width: 1140px;
+  height: 1395px;
+  margin: 0 auto;
+  margin-top: 74px;
+  background-color: rgba(13, 19, 33, 0.02);
+}
+.web-development-content-box {
+  width: 946px;
+  height: 1235px;
+  margin: 80px 97px;
+}
+.web-development-first-section {
+  width: 852px;
+  height: 115px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 47px;
+  margin-bottom: 48px;
+}
+.web-development-first-section h3 {
+  font-size: 32px;
+  font-weight: 800;
+}
+.web-development-first-section p {
+  font-size: 16px;
+  font-weight: 400;
+  /* margin-top: 24px; */
+}
+
+/* web debelopment content */
+
+.web-development-content {
+  width: 946px;
+  height: 1072px;
+  display: flex;
+  gap: 32px;
+  flex-direction: column;
+}
+.learn-more-btn {
+  width: 150px;
+  height: 48px;
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.content-box {
+  width: 946px;
+  height: 336px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  width: 477px;
+  height: 220px;
+}
+.content h3 {
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 24px;
+  font-weight: 700;
+}
+.content p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 16px;
+  margin-bottom: 32px;
+  color: rgba(13, 19, 33, 0.7);
+}
+.first-img-content {
+  width: 259.56px;
+  height: 217.01px;
+}
+
+.second-img-contant {
+  width: 223.2px;
+  height: 208.85px;
+  margin-right: 48px;
+}
+.third-img-contant {
+  width: 206.4px;
+  height: 187.32px;
+}
