@@ -47,7 +47,6 @@ nav button {
   width: 998px;
   height: 582px;
   margin: 0px auto;
-  margin-top: 26px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -58,6 +57,7 @@ nav button {
 .banner-contant img {
   width: 240.28px;
   height: 240px;
+  margin-top: 26px;
 }
 
 .banner-contant h1 {
@@ -173,4 +173,29 @@ nav button {
 .third-img-contant {
   width: 206.4px;
   height: 187.32px;
+}
+
+/* my inspiration section style here */
+
+.my-inspiration {
+  width: 1140px;
+  height: 777px;
+  margin: 0 auto;
+  margin-top: 88px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.my-inspiration h3 {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+.my-inspiration p {
+  font-size: 16px;
+  font-weight: 400;
+  width: 852px;
+  opacity: 0.7;
+  margin-bottom: 48px;
 }
