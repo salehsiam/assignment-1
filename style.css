@@ -38,6 +38,7 @@ nav button {
 .banner-container {
   max-width: 1440px;
   height: 652px;
+  margin: 0 auto;
   background-image: url(./assets/Hero-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -280,7 +281,7 @@ nav button {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.2);
   background-blend-mode: overlay;
 }
 .support-section {
@@ -288,7 +289,6 @@ nav button {
   height: 186px;
   margin: 64px 48px;
   text-align: center;
-  border: 1px solid black;
 }
 .support-section h3 {
   font-size: 32px;
@@ -316,4 +316,23 @@ nav button {
   padding: 17px 20px 17px 20px;
   border: none;
   border-radius: 8px;
+  cursor: pointer;
+}
+
+/* footer styles here */
+
+#my-footer {
+  width: 1440px;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 200px;
+}
+
+.social {
+  width: 157.01px;
+  height: 36px;
+  display: flex;
+  gap: 20px;
 }
